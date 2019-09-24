@@ -5,18 +5,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Vital Maksymiv</title>
+  <title>Vitalii Maksymiv</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
+  <!-- My custom styles -->
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body onkeydown="plusSlidesKey(event)">
   <!-- SCRIPTS -->
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -26,7 +26,10 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!--My script-->
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 
 <!-- Main navigation -->
 <header>
@@ -34,48 +37,49 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div class="container">
       <a class="navbar-brand" href="#">VM-Development</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto smooth-scroll">
           <li class="nav-item">
-              <a class="nav-link" href="#intro">Home
-              </a>
+            <a class="nav-link" href="#intro">Home
+            </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
+            <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#articles">Articles</a>
+            <a class="nav-link" href="#articles">Articles</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
         <!-- Social Icon  -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a class="nav-link" href = "https://www.facebook.com/vitaliy.maxymiv" target="_blank">
+            <a class="nav-link" href="https://www.facebook.com/vitaliy.maxymiv" target="_blank">
               <i class="fab fa-facebook-f light-green-text-2"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href = "https://t.me/vetal_ma" target="_blank">
+            <a class="nav-link" href="https://t.me/vetal_ma" target="_blank">
               <i class="fab fa-telegram light-green-text-2"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href = "https://www.instagram.com/vetal_ma/" target="_blank">
+            <a class="nav-link" href="https://www.instagram.com/vetal_ma/" target="_blank">
               <i class="fab fa-instagram light-green-text-2"></i>
             </a>
           </li>
@@ -99,7 +103,8 @@
           <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
             <h3 class="display-3 font-weight-bold white-text mb-0 pt-md-5 pt-5">Vitalii Maksymiv</h3>
             <hr class="hr-light my-4 w-75">
-            <h4 class="subtext-header mt-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit deleniti consequuntur nihil.</h4>
+            <h4 class="subtext-header mt-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit deleniti
+              consequuntur nihil.</h4>
             <a href="#!" class="btn btn-rounded btn-outline-white">
               <i class="fas fa-home "></i> Visit
             </a>
@@ -119,208 +124,309 @@
 <!--Main layout-->
 <main>
 
-<!--Section: about-->
-<section id="about" class="py-5">
+  <!--Section: about-->
+  <section id="about" class="py-5">
 
-  <!-- Container -->
-  <div class="container">
-    <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold text-center mb-5">About us</h2>
-    <!-- Section description -->
-    <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet,
-      consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad
-      minim veniam.</p>
+    <!-- Container -->
+    <div class="container">
+      <!-- Section heading -->
+      <h2 class="h1-responsive font-weight-bold text-center mb-5">About us</h2>
+      <!-- Section description -->
+      <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad
+        minim veniam.</p>
 
-    <!-- Grid row -->
-    <div class="row">
+      <!-- Grid row -->
+      <div class="row">
 
-      <!-- Grid column -->
-      <div class="col-lg-5 text-center text-lg-left">
-        <img class="img-fluid" src="./img/fullstack.png"
-          alt="Sample image">
+        <!-- Grid column -->
+        <div class="col-lg-5 text-center text-lg-left">
+          <img class="img-fluid" src="./img/fullstack.png" alt="Sample image">
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-7">
+
+          <!-- Grid row -->
+          <div class="row mb-3">
+
+            <!-- Grid column -->
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-xl-10 col-md-11 col-10">
+              <h5 class="font-weight-bold mb-3">Front-end</h5>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
+                minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
+                assumenda deleniti hic.</p>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+          <!-- Grid row -->
+          <div class="row mb-3">
+
+            <!-- Grid column -->
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-xl-10 col-md-11 col-10">
+              <h5 class="font-weight-bold mb-3">Back-end</h5>
+              <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
+                minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
+                assumenda deleniti hic.</p>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-xl-10 col-md-11 col-10">
+              <h5 class="font-weight-bold mb-3">Database</h5>
+              <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim
+                ad minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
+                assumenda deleniti hic.</p>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!--Grid row-->
+
+        </div>
+        <!--Grid column-->
+
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-7">
-
-        <!-- Grid row -->
-        <div class="row mb-3">
-
-          <!-- Grid column -->
-          <div class="col-1">
-            <i class="fas fa-share fa-lg indigo-text"></i>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-xl-10 col-md-11 col-10">
-            <h5 class="font-weight-bold mb-3">Front-end</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
-              minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-              assumenda deleniti hic.</p>
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
-        <div class="row mb-3">
-
-          <!-- Grid column -->
-          <div class="col-1">
-            <i class="fas fa-share fa-lg indigo-text"></i>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-xl-10 col-md-11 col-10">
-            <h5 class="font-weight-bold mb-3">Back-end</h5>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
-              minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-              assumenda deleniti hic.</p>
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-        <!--Grid row-->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-1">
-            <i class="fas fa-share fa-lg indigo-text"></i>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-xl-10 col-md-11 col-10">
-            <h5 class="font-weight-bold mb-3">Database</h5>
-            <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim
-              ad minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-              assumenda deleniti hic.</p>
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!--Grid row-->
-
-      </div>
-      <!--Grid column-->
+      <!-- Grid row -->
 
     </div>
-    <!-- Grid row -->
+    <!-- Container -->
 
-  </div>
-  <!-- Container -->
-
-</section>
-<!--Section: about-->
+  </section>
+  <!--Section: about-->
 
   <!--Section: projects-->
-<section id="projects" class="text-center py-5" style="background-color: #eee;">
+  <section id="projects" class="text-center py-5" style="background-color: #eee;">
 
-  <!-- Container -->
-  <div class="container">
+    <!-- Container -->
+    <div class="container">
 
-    <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold mb-5">Our best projects</h2>
-    <!-- Section description -->
-    <p class="grey-text w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
+      <!-- Section heading -->
+      <h2 class="h1-responsive font-weight-bold mb-5">Our best projects</h2>
+      <!-- Section description -->
+      <p class="grey-text w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
 
-    <!-- Grid row -->
-    <div class="row text-center">
+      <!-- Grid row -->
+      <div class="row text-center">
 
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-        <!--Featured image-->
-        <div class="zoom rounded z-depth-1">
-          <img src="./img/project1.jpg" class="img-fluid"
-            alt="Sample project image">
-          <a>
-            <div class="mask rgba-white-slight"></div>
-          </a>
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+          <!--Featured image-->
+          <div class="zoom rounded z-depth-1">
+            <img src="./img/project1.jpg" class="img-fluid" alt="Sample project image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Excerpt-->
+          <div class="card-body pb-0">
+            <h4 class="font-weight-bold my-3">Project title 1</h4>
+            <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
+              necessitatibus saepe eveniet ut et voluptates repudiandae.
+            </p>
+            <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
+          </div>
         </div>
-        <!--Excerpt-->
-        <div class="card-body pb-0">
-          <h4 class="font-weight-bold my-3">Project title 1</h4>
-          <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
-            necessitatibus saepe eveniet ut et voluptates repudiandae.
-          </p>
-          <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <!--Featured image-->
+          <div class="zoom rounded z-depth-1">
+            <img src="./img/project2.png" class="img-fluid" alt="Sample project image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Excerpt-->
+          <div class="card-body pb-0">
+            <h4 class="font-weight-bold my-3">Project title 2</h4>
+            <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
+              necessitatibus saepe eveniet ut et voluptates repudiandae.
+            </p>
+            <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
+          </div>
         </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-6">
+          <!--Featured image-->
+          <div class="zoom rounded z-depth-1">
+            <img src="./img/project3.jpg" class="img-fluid" alt="Sample project image">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Excerpt-->
+          <div class="card-body pb-0">
+            <h4 class="font-weight-bold my-3">Project title 3</h4>
+            <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
+              necessitatibus saepe eveniet ut et voluptates repudiandae.
+            </p>
+            <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-        <!--Featured image-->
-        <div class="zoom rounded z-depth-1">
-          <img src="./img/project2.png" class="img-fluid"
-            alt="Sample project image">
-          <a>
-            <div class="mask rgba-white-slight"></div>
-          </a>
-        </div>
-        <!--Excerpt-->
-        <div class="card-body pb-0">
-          <h4 class="font-weight-bold my-3">Project title 2</h4>
-          <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
-            necessitatibus saepe eveniet ut et voluptates repudiandae.
-          </p>
-          <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
-        </div>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-lg-4 col-md-6">
-        <!--Featured image-->
-        <div class="zoom rounded z-depth-1">
-          <img src="./img/project3.jpg" class="img-fluid"
-            alt="Sample project image">
-          <a>
-            <div class="mask rgba-white-slight"></div>
-          </a>
-        </div>
-        <!--Excerpt-->
-        <div class="card-body pb-0">
-          <h4 class="font-weight-bold my-3">Project title 3</h4>
-          <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum
-            necessitatibus saepe eveniet ut et voluptates repudiandae.
-          </p>
-          <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
-        </div>
-      </div>
-      <!-- Grid column -->
+      <!-- Grid row -->
 
     </div>
-    <!-- Grid row -->
+    <!-- Container -->
 
-  </div>
-  <!-- Container -->
-
-</section>
-<!--Section: projects-->
+  </section>
+  <!--Section: projects-->
 
   <!--Section: gallery-->
   <section id="gallery" class="text-center py-5">
 
     <!-- Container -->
     <div class="container">
-
       <!-- Section heading -->
       <h2 class="h1-responsive font-weight-bold mb-5">Gallery</h2>
+      <!-- Section description -->
+      <p class="grey-text w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
 
+      <!-- Images used to open the lightbox -->
+
+      <div class="row">
+        <figure class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+          <img src="./img/gallery/pr1.png"
+            onclick="openModal();currentSlide(1)" class="hover-shadow" width="100%">
+        </figure>
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <img src="./img/gallery/pr2.png"
+            onclick="openModal();currentSlide(2)" class="hover-shadow" width="100%">
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img src="./img/gallery/pr3.png"
+            onclick="openModal();currentSlide(3)" class="hover-shadow" width="100%">
+        </div>
+      </div>
+      <div class="row py-4">
+        <figure class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+          <img src="./img/gallery/pr4.png"
+            onclick="openModal();currentSlide(4)" class="hover-shadow" width="100%">
+        </figure>
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <img src="./img/gallery/pr5.png"
+            onclick="openModal();currentSlide(5)" class="hover-shadow" width="100%">
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img src="./img/gallery/pr6.png"
+            onclick="openModal();currentSlide(6)" class="hover-shadow" width="100%">
+        </div>
+      </div>
+      <div class="row">
+        <figure class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+          <img src="./img/gallery/pr7.png"
+            onclick="openModal();currentSlide(7)" class="hover-shadow" width="100%">
+        </figure>
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <img src="./img/gallery/pr8.png"
+            onclick="openModal();currentSlide(8)" class="hover-shadow" width="100%">
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img src="./img/gallery/pr9.png"
+            onclick="openModal();currentSlide(9)" class="hover-shadow" width="100%">
+        </div>
+    </div>
+    </div>
+
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <img src="./img/gallery/pr1.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <img src="./img/gallery/pr2.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="./img/gallery/pr3.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <img src="./img/gallery/pr4.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="./img/gallery/pr5.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="./img/gallery/pr6.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="./img/gallery/pr7.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="./img/gallery/pr8.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="./img/gallery/pr9.png" style="width:100%">
+          </div>
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+      </div>
     </div>
     <!-- Container -->
-
   </section>
   <!--Section: gallery-->
 
