@@ -133,3 +133,9 @@ html {
   .top-nav-collapse, .page-footer {
     background-color: #563e91 !important;
 }
+
+.streak.streak-photo {
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 470px;
+}
