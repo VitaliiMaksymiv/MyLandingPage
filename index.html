@@ -14,6 +14,8 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- My custom styles -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/slider.css" rel="stylesheet">
 </head>
 
 <body onkeydown="plusSlidesKey(event)">
@@ -27,7 +29,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!--My script-->
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 </body>
 
 
@@ -326,124 +328,238 @@
 
       <div class="row">
         <figure class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-          <img src="./img/gallery/pr1.png"
-            onclick="openModal();currentSlide(1)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr1.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="100%">
         </figure>
         <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-          <img src="./img/gallery/pr2.png"
-            onclick="openModal();currentSlide(2)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr2.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="100%">
         </div>
         <div class="col-lg-4 col-md-6">
-          <img src="./img/gallery/pr3.png"
-            onclick="openModal();currentSlide(3)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr3.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="100%">
         </div>
       </div>
       <div class="row py-4">
         <figure class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-          <img src="./img/gallery/pr4.png"
-            onclick="openModal();currentSlide(4)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr4.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="100%">
         </figure>
         <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-          <img src="./img/gallery/pr5.png"
-            onclick="openModal();currentSlide(5)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr5.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="100%">
         </div>
         <div class="col-lg-4 col-md-6">
-          <img src="./img/gallery/pr6.png"
-            onclick="openModal();currentSlide(6)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr6.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="100%">
         </div>
       </div>
       <div class="row">
         <figure class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-          <img src="./img/gallery/pr7.png"
-            onclick="openModal();currentSlide(7)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr7.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="100%">
         </figure>
         <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-          <img src="./img/gallery/pr8.png"
-            onclick="openModal();currentSlide(8)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr8.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="100%">
         </div>
         <div class="col-lg-4 col-md-6">
-          <img src="./img/gallery/pr9.png"
-            onclick="openModal();currentSlide(9)" class="hover-shadow" width="100%">
+          <img src="./img/gallery/pr9.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="100%">
         </div>
+      </div>
     </div>
-    </div>
 
-      <!-- The Modal/Lightbox -->
-      <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
 
-          <div class="mySlides">
-            <div class="numbertext">1 / 9</div>
-            <img src="./img/gallery/pr1.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">2 / 9</div>
-            <img src="./img/gallery/pr2.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">3 / 9</div>
-            <img src="./img/gallery/pr3.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">4 / 9</div>
-            <img src="./img/gallery/pr4.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">5 / 9</div>
-            <img src="./img/gallery/pr5.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">6 / 9</div>
-            <img src="./img/gallery/pr6.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">7 / 9</div>
-            <img src="./img/gallery/pr7.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">8 / 9</div>
-            <img src="./img/gallery/pr8.png" style="width:100%">
-          </div>
-
-          <div class="mySlides">
-            <div class="numbertext">9 / 9</div>
-            <img src="./img/gallery/pr9.png" style="width:100%">
-          </div>
-
-          <!-- Next/previous controls -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+        <div class="mySlides">
+          <div class="numbertext">1 / 9</div>
+          <img src="./img/gallery/pr1.png" style="width:100%">
         </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 9</div>
+          <img src="./img/gallery/pr2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 9</div>
+          <img src="./img/gallery/pr3.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 9</div>
+          <img src="./img/gallery/pr4.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 9</div>
+          <img src="./img/gallery/pr5.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 9</div>
+          <img src="./img/gallery/pr6.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 9</div>
+          <img src="./img/gallery/pr7.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 9</div>
+          <img src="./img/gallery/pr8.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">9 / 9</div>
+          <img src="./img/gallery/pr9.png" style="width:100%">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
       </div>
+
+    </div>
     </div>
     <!-- Container -->
   </section>
   <!--Section: gallery-->
 
   <!--Section: testimonials-->
-  <section id="testimonials" class="text-center py-5" style="background-color: #eee;">
-
+  <section id="testimonials" class="reviews text-center py-5" style="background-color: #eee;">
     <!-- Container -->
     <div class="container">
-
       <!-- Section heading -->
       <h2 class="h1-responsive font-weight-bold mb-5">Testimonials</h2>
 
+      <div class="owl-carousel">
+
+        <!-- card -->
+        <div class="item">
+          <div class=" card">
+            <div class="row">
+              <div class="col-xs-7 col-7 info-col">
+                <h4 class="title">SERHII YAROSHKO</h4>
+                <h6 class="sub-title">Chairperson, Programming Department</h6>
+                <ul>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 img-col">
+                <div class="user" style="background-image: url('./img/user-1.jpg')"></div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa libero eveniet,
+                  voluptatibus
+                  qui facere aut!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- card -->
+        <div class="item">
+          <div class=" card">
+            <div class="row">
+              <div class="col-xs-7 col-7 info-col">
+                <h4 class="title">OLHA PRIADKO</h4>
+                <h6 class="sub-title">Lecturer, Discrete Analysis Department</h6>
+                <ul>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 img-col">
+                <div class="user" style="background-image: url('./img/user-2.jpg')"></div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa libero eveniet,
+                  voluptatibus
+                  qui facere aut!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- card -->
+        <div class="item">
+          <div class=" card">
+            <div class="row">
+              <div class="col-xs-7 col-7 info-col">
+                <h4 class="title">HEORHIY SHYNKARENKO</h4>
+                <h6 class="sub-title">Chairperson, Information Systems Department</h6>
+                <ul>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 img-col">
+                <div class="user" style="background-image: url('./img/user.jpg')"></div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa libero eveniet,
+                  voluptatibus
+                  qui facere aut!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
     </div>
     <!-- Container -->
-
   </section>
   <!--Section: testimonials-->
+
+  <script>
+
+  </script>
 
   <!--Section: call to action-->
   <section id="">
@@ -481,7 +597,7 @@
 
 <!--Footer-->
 <footer>
-
+  <script type="text/javascript" src="js/script.js"></script>>
 </footer>
 <!--Footer-->
 
