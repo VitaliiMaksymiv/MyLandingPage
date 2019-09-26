@@ -69,3 +69,7 @@ function openModal() {
           }
         }
       });
+
+    $("section").addClass("wow fadeIn");
+    
+    new WOW().init();
